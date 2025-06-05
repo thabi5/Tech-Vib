@@ -8,6 +8,36 @@
 </head>
 
 <body>
-    
+
+    <nav class="navbar">
+		<div class="nav-container">
+			<h2 class="logo">TechVibe</h2>
+			<ul class="nav-menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Products.html">Products</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+				<li><a href="Cart.html" class="cart-link">Cart (<span id="cart-count">0</span>)</a></li>
+			</ul>
+		</div>
+	</nav>
+
+    <main class="main-container">
+        <div class="container">
+            <button class="filter-btn active" data-category="all">All Products</button>
+            <button class="filter-btn" data-category="phones">All Phones</button>
+            <button class="filter-btn" data-category="laptops">Laptops</button>
+            <button class="filter-btn" data-category="accessories">Accessories</button>
+        </div>
+
+        <div class="products-grid" id="products-grid">
+            <!--JavaScript will fill this -->
+        </div>
+    </main>
+
+    <footer class="footer">
+		<p><strong>&copy; 2024 TechVibe.</strong> All rights reserved. Created by _thabi.</p>
+	</footer>
+
+	<script src="script.js">Script</script>
 </body>
 </html>
